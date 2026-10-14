@@ -15,13 +15,13 @@ our_sites:
   platform: auto
   terms: ''
   max_products: 5000
-  active: true
+  active: false
 - name: Columbia
   url: https://columbiasportswear.com.ar
   platform: auto
   terms: ''
   max_products: 5000
-  active: false
+  active: true
 - name: Kappa
   url: https://www.kappastore.com.ar
   platform: auto
