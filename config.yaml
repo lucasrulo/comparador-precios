@@ -1,17 +1,67 @@
 settings:
-  match_threshold: 80      # score mínimo para considerar match (0-100)
-  doubt_threshold: 65      # entre este valor y match_threshold => "Dudoso" (revisar a mano / IA)
+  match_threshold: 80
+  doubt_threshold: 65
   timeout: 20
   parallel_sites: 4
 our_sites:
-  - {name: Crocs, url: https://www.crocs.com.ar, platform: auto, terms: "", max_products: 5000, active: true}
-  - {name: Reebok, url: https://reebok.com.ar, platform: auto, terms: "", max_products: 5000, active: true}
-  - {name: Columbia, url: https://columbiasportswear.com.ar, platform: auto, terms: "", max_products: 5000, active: true}
-  - {name: Kappa, url: https://www.kappastore.com.ar, platform: auto, terms: "", max_products: 5000, active: true}
-  - {name: Piccadilly, url: https://www.piccadilly.com.ar, platform: auto, terms: "", max_products: 5000, active: true}
+- name: Crocs
+  url: https://www.crocs.com.ar
+  platform: auto
+  terms: ''
+  max_products: 5000
+  active: false
+- name: Reebok
+  url: https://reebok.com.ar
+  platform: auto
+  terms: ''
+  max_products: 5000
+  active: true
+- name: Columbia
+  url: https://columbiasportswear.com.ar
+  platform: auto
+  terms: ''
+  max_products: 5000
+  active: false
+- name: Kappa
+  url: https://www.kappastore.com.ar
+  platform: auto
+  terms: ''
+  max_products: 5000
+  active: false
+- name: Piccadilly
+  url: https://www.piccadilly.com.ar
+  platform: auto
+  terms: ''
+  max_products: 5000
+  active: false
 competitors:
-  - {name: Dexter, url: https://www.dexter.com.ar, platform: auto, terms: "crocs, reebok, kappa", max_products: 3000, active: true}
-  - {name: Stock Center, url: https://www.stockcenter.com.ar, platform: auto, terms: "crocs, reebok, kappa, columbia", max_products: 3000, active: true}
-  - {name: Moov, url: https://www.moov.com.ar, platform: auto, terms: "crocs, reebok, kappa", max_products: 3000, active: true}
-  - {name: Solo Deportes, url: https://www.solodeportes.com.ar, platform: auto, terms: "crocs, reebok, kappa, columbia", max_products: 3000, active: true}
-  - {name: Grid, url: https://www.grid.com.ar, platform: auto, terms: "crocs, reebok, kappa", max_products: 3000, active: false}
+- name: Dexter
+  url: https://www.dexter.com.ar
+  platform: auto
+  terms: crocs, reebok, kappa
+  max_products: 3000
+  active: true
+- name: Stock Center
+  url: https://www.stockcenter.com.ar
+  platform: auto
+  terms: crocs, reebok, kappa, columbia
+  max_products: 3000
+  active: true
+- name: Moov
+  url: https://www.moov.com.ar
+  platform: auto
+  terms: crocs, reebok, kappa
+  max_products: 3000
+  active: true
+- name: Solo Deportes
+  url: https://www.solodeportes.com.ar
+  platform: auto
+  terms: crocs, reebok, kappa, columbia
+  max_products: 3000
+  active: true
+- name: Grid
+  url: https://www.grid.com.ar
+  platform: auto
+  terms: crocs, reebok, kappa
+  max_products: 3000
+  active: false
