@@ -1,0 +1,12 @@
+streamlit>=1.50
+pandas>=2.2
+numpy
+requests
+rapidfuzz>=3.9
+beautifulsoup4
+lxml
+pyyaml
+pyarrow
+plotly
+openpyxl
+anthropic>=0.40
