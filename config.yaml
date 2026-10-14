@@ -9,13 +9,13 @@ our_sites:
   platform: auto
   terms: ''
   max_products: 5000
-  active: false
+  active: true
 - name: Reebok
   url: https://reebok.com.ar
   platform: auto
   terms: ''
   max_products: 5000
-  active: false
+  active: true
 - name: Columbia
   url: https://columbiasportswear.com.ar
   platform: auto
@@ -27,13 +27,13 @@ our_sites:
   platform: auto
   terms: ''
   max_products: 5000
-  active: false
+  active: true
 - name: Piccadilly
   url: https://www.piccadilly.com.ar
   platform: auto
   terms: ''
   max_products: 5000
-  active: false
+  active: true
 competitors:
 - name: Dexter
   url: https://www.dexter.com.ar
