@@ -40,28 +40,34 @@ competitors:
   platform: auto
   terms: crocs, reebok, kappa
   max_products: 3000
-  active: true
+  active: false
 - name: Stock Center
   url: https://www.stockcenter.com.ar
   platform: auto
   terms: crocs, reebok, kappa, columbia
   max_products: 3000
-  active: true
+  active: false
 - name: Moov
   url: https://www.moov.com.ar
   platform: auto
   terms: crocs, reebok, kappa
   max_products: 3000
-  active: true
+  active: false
 - name: Solo Deportes
   url: https://www.solodeportes.com.ar
   platform: auto
   terms: crocs, reebok, kappa, columbia
   max_products: 3000
-  active: true
+  active: false
 - name: Grid
   url: https://www.grid.com.ar
   platform: auto
   terms: crocs, reebok, kappa
   max_products: 3000
   active: false
+- name: Northface
+  url: https://www.thenorthface.com.ar/
+  platform: auto
+  terms: ''
+  max_products: 3000
+  active: true
